@@ -7,6 +7,7 @@ on:
 
 jobs:
   deploy:
+    # Linuxだとデフォルトフォントが少ないためPDFを生成する際にマルチバイト文字が文字化けする故、macOSでbuildしている
     runs-on: macos-latest
     steps:
       - uses: actions/checkout@v4

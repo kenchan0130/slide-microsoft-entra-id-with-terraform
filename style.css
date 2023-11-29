@@ -11,13 +11,12 @@ p, ul {
 }
 
 .footnotes-list p {
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 0;
-  line-height: 1;
-  margin-top: 0.5rem;
+  line-height: 1.5;
+  margin-top: 0.3rem;
 }
 
 .footnotes-list li {
   line-height: 1.0em;
 }
-

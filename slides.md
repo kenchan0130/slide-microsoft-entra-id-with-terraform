@@ -318,7 +318,7 @@ resource "azuread_group" "bizdev_division" {
 条件付きアクセスポリシー
 
 ```hcl {all} {maxHeight:'340px'}
-resource "azuread_conditional_access_policy" "enforce_mfa" {
+resource "azuread_conditional_access_policy" "mfa" {
   display_name = "Enforce MFA"
   state        = "enabled"
 
