@@ -1,0 +1,23 @@
+p, ul {
+  font-size: 22px;
+}
+
+.slidev-layout p {
+  line-height: 1.4em;
+}
+
+.slidev-layout h1 + p {
+  margin-bottom: 0.8rem;
+}
+
+.footnotes-list p {
+  font-size: 18px;
+  margin-bottom: 0;
+  line-height: 1;
+  margin-top: 0.5rem;
+}
+
+.footnotes-list li {
+  line-height: 1.0em;
+}
+
