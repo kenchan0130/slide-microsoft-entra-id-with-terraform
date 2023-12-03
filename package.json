@@ -7,6 +7,8 @@
     "dev": "slidev --open"
   },
   "devDependencies": {
+    "@iconify-json/logos": "^1.1.40",
+    "@iconify-json/skill-icons": "^1.1.5",
     "@slidev/cli": "^0.44.0",
     "playwright-chromium": "^1.40.0"
   },

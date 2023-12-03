@@ -84,7 +84,7 @@ layout: statement
 
 <div>
 
-* HashiCorp社がBSL[^1]として提供
+* <logos-hashicorp-icon /> HashiCorp社がBSL[^1]として提供
 * 設定はHCL[^2]という独自の言語で記述
 
 [^1]: Business Source License
@@ -136,7 +136,7 @@ flowchart LR
 
 ![azureadのTerraform Provider](/azuread-provider.png){class="m-auto px-5 h-80"}
 
-* HashiCorp社の公式Provider
+* <logos-hashicorp-icon /> HashiCorp社の公式Provider
 * 主にMicrosoft Graph APIを仲介する
 * [<carbon-logo-github /> manicminer/hamilton](https://github.com/manicminer/hamilton)がAPIクライアント[^1]として使われている
   * manicminerさんはHashiCorp所属の方
@@ -794,7 +794,7 @@ resource "terraform_data" "pim_global_admin" {
 # 添付: 構成管理のTerraform以外の方法
 
 * [Microsoft365DSC](https://microsoft365dsc.com/)
-* [Pulumi](https://www.pulumi.com/registry/packages/azuread/)
+* [<logos-pulumi-icon /> Pulumi](https://www.pulumi.com/registry/packages/azuread/)
 
 ---
 
@@ -802,7 +802,7 @@ resource "terraform_data" "pim_global_admin" {
 
 ファイルの暗号化をしてアップロードしないといけないが、暗号化の仕様がよくわからない
 
-* [Create mobileAppContentFile](https://learn.microsoft.com/en-us/graph/api/intune-apps-mobileappcontentfile-create?view=graph-rest-1.0)
-* [commit action](https://learn.microsoft.com/en-us/graph/api/intune-apps-mobileappcontentfile-commit?view=graph-rest-1.0)
+* [Create mobileAppContentFile - Microsoft Graph](https://learn.microsoft.com/en-us/graph/api/intune-apps-mobileappcontentfile-create?view=graph-rest-1.0)
+* [commit action - Microsoft Graph](https://learn.microsoft.com/en-us/graph/api/intune-apps-mobileappcontentfile-commit?view=graph-rest-1.0)
 
 サポートに問い合わせもしたが、[<carbon-logo-github /> microsoftgraph/powershell-intune-samples](https://github.com/microsoftgraph/powershell-intune-samples/tree/master/LOB_Application)見てねしか答えられないわ！（意訳）って言われてしまった
